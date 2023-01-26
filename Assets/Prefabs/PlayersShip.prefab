@@ -2567,6 +2567,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6638704460658459656}
+  - component: {fileID: 866791472911071091}
+  - component: {fileID: 642666341670299633}
   m_Layer: 0
   m_Name: PlayersShip
   m_TagString: Untagged
@@ -2592,6 +2594,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &866791472911071091
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4484717086109379655}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4796762, y: 3.122526, z: 5.415912}
+  m_Center: {x: 0.014354978, y: 0.16875398, z: 0.5154145}
+--- !u!114 &642666341670299633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4484717086109379655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7ca61808af32244f9ceaf9007e1b7cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5084214827035689882
 GameObject:
   m_ObjectHideFlags: 0
