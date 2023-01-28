@@ -9,20 +9,30 @@ public class EndGame : MonoBehaviour
 {
     public int enemiesDown = 0;
     public int count;
-    private int enemiesStart = 0;
-    private GameObject[] enemies;
-    [SerializeField] private GameObject player;
+    int enemiesStart = 0;
+    GameObject[] enemies;
+    [SerializeField] 
+    GameObject player;
     EnemyRocketHit enemyRocketHit;
-    [SerializeField] private GameObject gameWonMenu;
-    [SerializeField] private GameObject gameLostMenu;
-    [SerializeField] AudioSource audioSourceGameOver;
-    [SerializeField] AudioSource audioSourceGameWon;
-    [SerializeField] AudioSource backgroundMusic;
+    [SerializeField] 
+    GameObject gameWonMenu;
+    [SerializeField] 
+    GameObject gameLostMenu;
+    [SerializeField] 
+    AudioSource audioSourceGameOver;
+    [SerializeField] 
+    AudioSource audioSourceGameWon;
+    [SerializeField] 
+    AudioSource backgroundMusic;
     GameMenuController gameMenuController;
-    [FormerlySerializedAs("timerDisplay")] [SerializeField] private TextMeshProUGUI gameLostTimerDisplay;
-    [FormerlySerializedAs("scoreDisplay")] [SerializeField] private TextMeshProUGUI gameLostScoreDisplay;
-    [SerializeField] TextMeshProUGUI gameWonTimerDisplay;
-    [SerializeField] TextMeshProUGUI gameWonScoreDisplay;
+    [FormerlySerializedAs("timerDisplay")] [SerializeField] 
+    TextMeshProUGUI gameLostTimerDisplay;
+    [FormerlySerializedAs("scoreDisplay")] [SerializeField] 
+    TextMeshProUGUI gameLostScoreDisplay;
+    [SerializeField] 
+    TextMeshProUGUI gameWonTimerDisplay;
+    [SerializeField] 
+    TextMeshProUGUI gameWonScoreDisplay;
     private void Awake()
     {
         enemies = GameObject.FindGameObjectsWithTag("Enemy");
@@ -46,8 +56,10 @@ public class EndGame : MonoBehaviour
             backgroundMusic.Stop();
             audioSourceGameWon.Play();
             gameMenuController.StopTimer();
+            
             gameWonTimerDisplay.text = gameMenuController.timerDisplay.text;
             gameWonScoreDisplay.text = gameMenuController.scoreDisplay.text;
+            
             DestroyAllObjects();
             ShowGameWonMenu();
         }
@@ -56,8 +68,10 @@ public class EndGame : MonoBehaviour
             backgroundMusic.Stop();
             audioSourceGameOver.Play();
             gameMenuController.StopTimer();
+            
             gameLostTimerDisplay.text = gameMenuController.timerDisplay.text;
             gameLostScoreDisplay.text = gameMenuController.scoreDisplay.text;
+            
             DestroyAllObjects();
             ShowGameLostMenu();
         }
