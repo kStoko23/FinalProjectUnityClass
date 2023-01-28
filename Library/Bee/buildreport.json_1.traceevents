@@ -1,0 +1,560 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1674935731773629, "dur": 1192407, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674935731773809, "dur": 13966, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674935731787778, "dur": 33264, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674935731821043, "dur": 456513, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674935732277557, "dur": 675139, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674935732952697, "dur": 13340, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674935732966387, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1674935732131768, "dur": 112863, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674935732132620, "dur": 34724, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674935732232168, "dur": 3546, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674935732235717, "dur": 8909, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674935732236260, "dur": 7920, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674935732248006, "dur": 1073, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674935732247410, "dur": 1687, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674935732966458, "dur": 122, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1674935732302956, "dur":725, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732303686, "dur":31, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1674935732303727, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1674935732303739, "dur":261, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1674935732304022, "dur":320, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732304342, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732934790, "dur":119, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732934909, "dur":39, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732934948, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732934952, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732934957, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732934958, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732934968, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732934970, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732934982, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732934983, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732934988, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732934989, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732934992, "dur":39, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732935031, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732935033, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732935034, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732935037, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732935039, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732935041, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732935042, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732935045, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732935045, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732935048, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732935049, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732935054, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732935063, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732935107, "dur":884, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1674935732304121, "dur":226, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674935732304348, "dur":2874, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674935732307230, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674935732307236, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674935732308021, "dur":418, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674935732308444, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674935732308484, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674935732308686, "dur":7292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674935732315981, "dur":541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1674935732316525, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674935732316977, "dur":1393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1674935732318401, "dur":28280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674935732346686, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674935732346933, "dur":21906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674935732368872, "dur":25527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject.exe" }}
+,{ "pid":12345, "tid":1, "ts":1674935732394402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674935732394407, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject.exe" }}
+,{ "pid":12345, "tid":1, "ts":1674935732395290, "dur":14668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674935732409961, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674935732409969, "dur":670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674935732410663, "dur":12189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674935732422858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674935732422867, "dur":672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674935732423562, "dur":88807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674935732512372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674935732512379, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674935732513303, "dur":13818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674935732527124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674935732527132, "dur":563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674935732527715, "dur":15424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674935732543146, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674935732543157, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674935732545894, "dur":16364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674935732562263, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674935732562272, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674935732563313, "dur":89509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674935732652827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674935732652837, "dur":3466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674935732656327, "dur":173785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674935732830117, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674935732830125, "dur":2852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674935732833000, "dur":101785, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674935732304145, "dur":208, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674935732304354, "dur":2873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674935732307231, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1674935732307513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674935732308731, "dur":7833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1674935732316591, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1674935732316658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674935732316786, "dur":52164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1674935732368979, "dur":40272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732409255, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674935732409263, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732410047, "dur":13070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732423120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674935732423127, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732425090, "dur":11788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732436883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674935732436891, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732437728, "dur":23322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732461055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674935732461080, "dur":695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732461798, "dur":24218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732486021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674935732486030, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732487295, "dur":14136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732501437, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674935732501446, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732502229, "dur":26032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732528265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674935732528274, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732529307, "dur":39497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732568809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674935732568819, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732569866, "dur":102062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732671933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674935732671942, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732673936, "dur":35805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732709747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674935732709757, "dur":3526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732713555, "dur":132802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732846360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674935732846367, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674935732847274, "dur":87517, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674935732304138, "dur":212, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674935732304350, "dur":2903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674935732307253, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1674935732307382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674935732317176, "dur":226950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1674935732544194, "dur":20678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674935732564875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674935732564883, "dur":622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674935732565527, "dur":70038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674935732635571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674935732635579, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674935732636663, "dur":23633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674935732660300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674935732660308, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674935732661592, "dur":99978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674935732761575, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674935732761584, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674935732763563, "dur":168947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674935732932513, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674935732932520, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674935732934761, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1674935732934763, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674935732304164, "dur":193, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674935732304357, "dur":2875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674935732307232, "dur":9063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1674935732316298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674935732316310, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1674935732317291, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1674935732317366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674935732317372, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1674935732319029, "dur":56704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732375738, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674935732375809, "dur":4005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732379844, "dur":13342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732393192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674935732393200, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732393961, "dur":64632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732458598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674935732458607, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732459321, "dur":30407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732489754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674935732489764, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732490759, "dur":19867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732510630, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674935732510637, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732511724, "dur":13655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732525383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674935732525389, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732526517, "dur":17335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732543856, "dur":33, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674935732543895, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732545978, "dur":16574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732562554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674935732562560, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732564320, "dur":31698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732596022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674935732596029, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732597731, "dur":39538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732637273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674935732637282, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732639602, "dur":34998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732674603, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674935732674611, "dur":1591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732676252, "dur":63979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732740236, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674935732740245, "dur":3375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732743647, "dur":86890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732830541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674935732830548, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674935732831954, "dur":102833, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674935732304187, "dur":173, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674935732304361, "dur":2868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674935732307231, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1674935732307412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674935732317521, "dur":205368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1674935732522923, "dur":23640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674935732546568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674935732546578, "dur":898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674935732547498, "dur":16822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674935732564323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674935732564331, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674935732565079, "dur":44237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674935732609353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674935732609363, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674935732610196, "dur":44369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674935732654569, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674935732654578, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674935732656499, "dur":58869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674935732715372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674935732715659, "dur":8521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674935732724205, "dur":121639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674935732845848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674935732845854, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674935732847350, "dur":87443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732304204, "dur":160, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732304364, "dur":2860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732307231, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1674935732307368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732313692, "dur":6965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1674935732320696, "dur":48126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1674935732368832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732368838, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1674935732370059, "dur":24081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732394144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732394152, "dur":580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732394754, "dur":14612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732409369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732409376, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732410212, "dur":45581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732455799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732455808, "dur":750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732456585, "dur":12010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732468601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732468610, "dur":2035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732470667, "dur":12320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732482993, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732483001, "dur":674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732483700, "dur":14089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732497795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732497804, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732498690, "dur":11762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732510456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732510464, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732511583, "dur":23513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732535100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732535107, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732535736, "dur":22619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732558360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732558395, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732560043, "dur":40208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732600255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732600262, "dur":22706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732623053, "dur":35713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732658771, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732658780, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732659729, "dur":152604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732812338, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732812351, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674935732813355, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1674935732813434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732813695, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1674935732814236, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1674935732814260, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732814299, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1674935732814939, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":6, "ts":1674935732814962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732814967, "dur":2453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":6, "ts":1674935732817445, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1674935732817466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732817473, "dur":573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1674935732818067, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1674935732818090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732818096, "dur":539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1674935732818656, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1674935732818681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732818686, "dur":671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1674935732819376, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1674935732819398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732819403, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1674935732820391, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1674935732820412, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732820417, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1674935732821057, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1674935732821123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732821128, "dur":425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1674935732821571, "dur":683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1674935732822258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732822314, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1674935732823331, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1674935732823355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732823360, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1674935732824638, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1674935732824662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732824668, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1674935732825420, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1674935732825445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732825451, "dur":650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1674935732826120, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1674935732826143, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732826148, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1674935732826854, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1674935732826878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732826883, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1674935732827579, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1674935732827608, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732827612, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1674935732828426, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1674935732828500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674935732828505, "dur":476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1674935732829000, "dur":105788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674935732304228, "dur":140, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674935732304368, "dur":2860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674935732307232, "dur":8941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1674935732316175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674935732316185, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1674935732317087, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1674935732317187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674935732317226, "dur":209967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1674935732527233, "dur":16676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674935732543912, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674935732543919, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674935732545852, "dur":87178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674935732633034, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674935732633132, "dur":3008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674935732636167, "dur":26222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674935732662394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674935732662402, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674935732663517, "dur":87553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674935732751074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674935732751081, "dur":595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674935732751697, "dur":80287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674935732831989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674935732831998, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674935732832972, "dur":101811, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732304242, "dur":129, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732304371, "dur":2852, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732307230, "dur":26795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1674935732334031, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732334371, "dur":34762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1674935732369158, "dur":15576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732384737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732384803, "dur":511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732385336, "dur":17221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732402562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732402570, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732403321, "dur":14018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732417347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732417354, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732418623, "dur":21873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732440501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732440509, "dur":633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732441165, "dur":27486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732468655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732468661, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732470025, "dur":21017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732491047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732491054, "dur":648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732491725, "dur":12695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732504425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732504434, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732505126, "dur":33139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732538270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732538278, "dur":6265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732544570, "dur":17759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732562333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732562358, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732564014, "dur":24222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732588260, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732588269, "dur":3150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732591444, "dur":49898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732641346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732641354, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732643137, "dur":23896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732667039, "dur":130, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732667179, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732668867, "dur":83056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732751926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732751933, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732752519, "dur":27394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732779918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732779926, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732780740, "dur":75488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732856232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674935732856238, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674935732856818, "dur":77976, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674935732304261, "dur":113, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674935732304374, "dur":2857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674935732307232, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1674935732307362, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674935732313339, "dur":6234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1674935732319603, "dur":191238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674935732510844, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674935732510849, "dur":13735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674935732524614, "dur":70741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674935732595359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674935732595369, "dur":2615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674935732598147, "dur":42722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674935732640874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674935732640901, "dur":2073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674935732642999, "dur":797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674935732643799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674935732643808, "dur":621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674935732644451, "dur":973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674935732645429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674935732645436, "dur":697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674935732646158, "dur":75154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674935732721317, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674935732721325, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674935732722167, "dur":153692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674935732875863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1674935732875869, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1674935732877299, "dur":57491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674935732304275, "dur":102, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674935732304377, "dur":2854, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674935732307231, "dur":8731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1674935732315967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674935732315983, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1674935732317162, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1674935732317235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674935732317241, "dur":51704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1674935732368977, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1674935732369060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674935732369277, "dur":8781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1674935732378086, "dur":25484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674935732403574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674935732403586, "dur":580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674935732404188, "dur":15048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674935732419240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674935732419248, "dur":613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674935732419883, "dur":83594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674935732503482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674935732503491, "dur":2281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674935732505798, "dur":19080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674935732524882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674935732524889, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674935732526702, "dur":21688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674935732548395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674935732548403, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674935732549338, "dur":40873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674935732590217, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674935732590226, "dur":4306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674935732594557, "dur":59073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674935732653634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674935732653642, "dur":3527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674935732657227, "dur":92441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674935732749709, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674935732749732, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674935732750399, "dur":87136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674935732837541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1674935732837550, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1674935732838477, "dur":96305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674935732304293, "dur":87, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674935732304380, "dur":2846, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674935732307231, "dur":8787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1674935732316021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674935732316031, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1674935732316946, "dur":9690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1674935732326642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674935732326651, "dur":43085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1674935732369801, "dur":31602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732401408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674935732401417, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732403019, "dur":13593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732416618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674935732416628, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732418836, "dur":33066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732451908, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674935732451918, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732452749, "dur":34169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732486926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674935732486952, "dur":718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732487693, "dur":23574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732511271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674935732511278, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732512918, "dur":20472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732533395, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674935732533405, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732534663, "dur":20836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732555505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674935732555517, "dur":3029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732558571, "dur":26877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732585454, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674935732585463, "dur":10677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732596164, "dur":152632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732748801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674935732748810, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732749820, "dur":76723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732826547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674935732826553, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1674935732827196, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1674935732827219, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674935732827243, "dur":580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1674935732827844, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1674935732827869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1674935732827874, "dur":625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1674935732828519, "dur":106265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674935732304315, "dur":69, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674935732304384, "dur":2846, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674935732307230, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1674935732307346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674935732308829, "dur":7262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1674935732316127, "dur":52049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1674935732368181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674935732368190, "dur":853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1674935732369066, "dur":14989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732384061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674935732384295, "dur":715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732385033, "dur":21851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732406889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674935732406898, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732407805, "dur":37227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732445037, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674935732445059, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732445792, "dur":62544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732508342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674935732508352, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732509525, "dur":42569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732552100, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674935732552109, "dur":3904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732556040, "dur":41895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732597939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674935732597947, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732600038, "dur":29695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732629739, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674935732629749, "dur":687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732630459, "dur":47009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732677472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674935732677734, "dur":15410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732693168, "dur":44119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732737293, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674935732737303, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732738358, "dur":33447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732771811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674935732771820, "dur":7365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732779212, "dur":118904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732898119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1674935732898126, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hackerman/Desktop/StokowskiJakub_Zadanie6/FinalProject_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1674935732898749, "dur":36038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674935732936702, "dur":1198, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1674935732966613, "dur": 535, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674935732966376, "dur": 784, "ph": "X", "name": "Write chrome-trace events", "args": {} },

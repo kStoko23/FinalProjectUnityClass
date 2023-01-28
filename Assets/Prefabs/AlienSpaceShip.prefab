@@ -1524,7 +1524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 5503733226275398865, guid: 60bf4b2292a3fd044a897ca3c3e7d901, type: 3}
   rocketVelocity: 750
-  fireRate: 0.5
+  fireRate: 5
   bulletSpawn: {fileID: 2414706736348470600}
   barierWall: {fileID: 0}
 --- !u!1 &3861397595871562584
