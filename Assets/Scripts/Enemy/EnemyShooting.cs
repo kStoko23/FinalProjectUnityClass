@@ -7,7 +7,7 @@ public class EnemyShooting : MonoBehaviour
 {
     public GameObject bullet;
     public float rocketVelocity = 750f;
-    public float fireRate = 3f;
+    public float fireRate = 2f;
     public Transform bulletSpawn;
     public GameObject barierWall;
 
